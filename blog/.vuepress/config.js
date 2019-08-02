@@ -8,8 +8,8 @@ module.exports = {
     serviceWorker: true,
 
     head: [
-        ['link', { rel: 'icon', href: '/icon/logo.png' }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['link', { rel: 'icon', href: '/icon/dou.png' }],
+        // ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['script', { rel: 'text/javascript', src: '/util/index.js' }]
     ],
 
@@ -18,12 +18,11 @@ module.exports = {
     },
 
     evergreen: true,
-
-    theme: 'reco',
     
     themeConfig: {
         type: 'blog',
         search: true,
+        logo: '/icon/together5.png',
         nav: [
             { text: 'Home', link: '/' },
             { text: '前端', link: '/front-end/' },
@@ -44,6 +43,7 @@ module.exports = {
                     }
                 ]
             },
+            { text: '花卉', link: '/plant/' },
             { text: '会计', link: '/accounting/' }
         ],
         sidebar: {
@@ -72,7 +72,8 @@ module.exports = {
                 {
                     title: 'TypeScript',
                     children: [
-                        'typescript/基础类型'
+                        'typescript/基础类型',
+                        'typescript/接口'
                     ]
 
                 }
@@ -97,7 +98,20 @@ module.exports = {
                     title: '美味佳肴',
                     collapsable: false,
                     children: [
-                        'delicacies/罗宋汤'
+                        'delicacies/罗宋汤',
+                        'delicacies/蛋糕',
+                        'delicacies/咖喱鸡块'
+                    ]
+                }
+            ],
+            '/plant/': [
+                '',
+                'one',
+                {
+                    title: '多肉植物',
+                    collapsable: false,
+                    children: [
+
                     ]
                 }
             ],
