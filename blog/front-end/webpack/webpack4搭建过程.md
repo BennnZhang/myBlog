@@ -365,7 +365,7 @@ url-loader配置limit当小于limit字节时会使用url-loader将图片转为ba
     ]
 }
 ```
-## 字体的处理
+## 14. 字体的处理
 字体的处理也是用的file-loader, 需要我们在module的rules中配置一下:  
 ```js
 {

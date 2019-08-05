@@ -31,7 +31,8 @@ frontEndConfig = [
         title: 'git',
         children: [
             'git/在同一台电脑配两个ssh',
-            'git/配置了ssh还需要用户名和密码'
+            'git/配置了ssh还需要用户名和密码',
+            'git/小乌龟TortoiseGit报Disconnected'
         ]
     },
     {
