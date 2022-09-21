@@ -16,6 +16,6 @@
   "dependencies": {
     "axios": "^0.19.0",
     "vuepress": "^1.0.2",
-    "vuepress-theme-reco": "^1.0.0-alpha.28"
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
